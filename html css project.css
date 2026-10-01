@@ -1,0 +1,379 @@
+body{
+       background-image: url("image bg 7.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; 
+      background-attachment: fixed;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+
+    }
+
+    h1{
+      font-size: 80px;
+      color: white;
+      font-weight: bold;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    p{
+      color: white;
+      font-size: 15px; 
+      margin: 0 0 30px 0 ;
+      letter-spacing: 5%;
+      word-spacing: 5%;
+      line-height: 200%;
+    }
+
+    .container{
+      width: 100%;
+      height: 10%;
+       position: fixed; 
+      top: 0;          
+      z-index: 1000;
+    }
+
+    .p{
+    
+      width: 600px;
+      height: 600px;
+      margin: 200px 0 0 100px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+      
+    }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #222;
+  height: 55px;
+}
+
+
+.logo img {
+  width: 200px;
+  height: 70px;
+  margin: 30px 0 0 50px;
+
+}
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+
+}
+
+.nav-links a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+  
+  
+}
+
+.nav-links a:hover {
+  color: #f1c40f;
+}
+
+.btn {
+      display: inline-block;
+      background: #f1c40f;
+      color: #000;
+      padding: 12px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      margin-top: 25px;
+      
+    
+}
+
+.btn:hover {
+      background: #d4ac0d;
+}
+
+
+.special-dishes {
+  background-color: black;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.special-dishes h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+
+.special-dishes p {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.menu {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 25px;
+    }
+
+    .card {
+      background-color: #222;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      margin-top: 25px;
+      width: 70%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 15px 0 5px;
+      font-size: 20px;
+      color: #f4d03f;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #bbb;
+      margin: 0 15px 15px;
+    }
+
+    .card .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #27ae60;
+      margin-bottom: 15px;
+    }
+
+
+    .food{
+      color: #fff;
+      /* background-color: #000; */
+      background-image: url(background.png);
+      margin: 0  50px 50px;
+      width: 95%;
+    
+      
+    }
+
+    iframe{
+      float: left;
+      margin-right: 50px; 
+      margin-top: 60px;
+      
+      
+    }
+
+    .frame h1{
+      font-size: 50px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bold;
+      padding: 50px 20px;
+    
+      
+    }
+
+    .frame p{
+      color: white;
+      font-size: 15px; 
+      margin: 0 0 30px 0 ;
+      letter-spacing: 5%;
+      word-spacing: 5%;
+      line-height: 200%;
+
+    }
+
+    .frame{
+      width: 90%;
+      margin-left: 100px;
+    
+    }
+
+
+    .book{
+    
+      background-image: url(background.png);
+      margin: 0;
+      font-family: Arial, sans-serif;
+  
+      color: #fff;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    
+    }
+
+    .table{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+  .book h1{
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px 0 0 20px;
+    padding: 50px 20px;
+  
+  }
+
+
+  .form-section{
+    display: inline-table;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+      background: rgba(0,0,0,0.7);
+      padding: 30px;
+      border-radius: 8px;
+      
+      
+      
+  }
+
+  .form-section label {
+      display: inline-table;
+      margin: 20px 0 25px;
+      font-weight: bold;
+      color: #f1c40f;
+      
+    
+      
+    }
+
+    .form-section input {
+       display: inline-table;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 60%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 4px;
+    
+    
+    }
+
+    .form-section button {
+      background-color: #f1c40f;
+    
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin-top: 20px;
+    }
+
+    .form-section button:hover {
+      background-color: #d4ac0d;
+    }
+
+    .hours-section {
+      width: 45%;
+      background: #000;
+      padding: 30px;
+      border-radius: 8px;
+    }
+
+    .hours-section h2 {
+      margin-bottom: 20px;
+      font-size: 28px;
+      border-bottom: 2px solid #f1c40f;
+      padding-bottom: 10px;
+    }
+
+
+    .hours-section p {
+      margin: 8px 0;
+      font-size: 16px;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #f1c40f;
+    }
+
+
+    footer{
+      
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    
+    }
+
+    .contacts-section {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .contacts-section h2 {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    
+    }
+
+    .contacts-grid {
+      display: flex;
+      justify-content: center;
+      gap: 90px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+
+    
+
+    .contact-item h3 {
+      color: #FFD700;
+      margin-bottom: 10px;
+    }
+
+    .contact-item p {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      color: #FFD700;
+      font-size: 20px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #fff;
+    }
